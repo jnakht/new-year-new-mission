@@ -1,0 +1,37 @@
+/* shared */
+.shared-merriweather {
+    color: #FFF;
+    font-family: 'merriweather', serif;
+}
+
+/* banner */
+.banner {
+    background-image: url('../resources/Banner\ Image.png');
+    background-size: contain;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 50px 140px;
+    background: linear-gradient(rgb(0, 0, 0.1), rgba(0, 0, 0, 0.)), url('../resources/Banner\ Image.png');
+}
+
+.banner-greeting {
+    font-size: 32px;
+    font-weight: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.banner-celebration {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900px;
+    margin-top: 0;
+    line-height: 95px;
+}
+
+.banner-description {
+    width: 590px;
+    padding-top: 135px;
+    padding-left: 340px;
+}
