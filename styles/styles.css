@@ -284,6 +284,7 @@ body {
 .holiday-sale {
     margin-top: 200px;
 }
+
 .holiday-sale-description {
     text-align: center;
     display: flex;
@@ -314,26 +315,252 @@ body {
     margin-bottom: 64px;
     width: 680px;
 }
+
 .red-text {
     color: #F00;
 }
 
 .picture-part-1 {
-    background-image: url('../resources/Rectangle\ 1.png');
-    
-    background-size: contain;
-    height: 433px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: right center;
-    
+    background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
+
+    height: 630px;
+    width: 1302px;
+    background-position: bottom center, top right;
+
+
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1299px 200px, auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
 }
 
 .fifty-percent-logo {
-    margin-left: 820px;
-    margin-top: 70px;
+    position: absolute;
+    height: 50%;
+    right: 280px;
+    top: 73px;
+
 }
 
-.holiday-sale-pictures {
-    margin-right: 100px;
+.flower-picture {
+    position: absolute;
 }
+
+
+
+.the-best-gifts-description {
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+.the-best-gifts-description h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.the-best-gifts-description h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 22px;
+
+}
+
+.the-best-gifts-description p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 750px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.products-p1 img:hover,
+.products-p2 img:hover {
+    opacity: 0.5;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.products-p1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap: 18px;
+    margin-top: 48px;
+    margin-bottom: 18px;
+
+
+}
+
+.products-p2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap: 18px;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.subscribe-part {
+    background-color: #FFE5E5;
+    /* */
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.subscribe-description {
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.subscribe-description img {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.subscribe-description h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.subscribe-description p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 48px;
+    width: 750px;
+    margin-left: 290px;
+}
+
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.subscribe-form input[type="email"] {
+    width: 500px;
+    height: 72px;
+    border-radius: 50px 50px 50px 50px;
+    background: #FFF;
+    padding-left: 35px;
+    margin-left: 270px;
+
+}
+
+.subscribe-form input[type="submit"] {
+    width: 200px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: -27px;
+}
+
+
+input {
+    border: none;
+
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+/* footer */
+.footer-content {
+    height: 609px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.address {
+    color: #FFF;
+
+    font-size: 24px;
+    font-weight: 500;
+    width: 400px;
+}
+
+.contact-info b, .contact-info a {
+    color: #FFF;
+
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact-info a, .footer-part-three a  {
+    text-decoration: none;
+}
+
+.footer-part-three b, .footer-part-three a {
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+}
+
+.footer-part-one {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+
+.footer-part-two {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    
+}
+.footer-part-two-contents {
+    margin-left: 465px;
+}
+.footer-part-two img {
+    margin-right: 24px;
+}
+
+.footer-part-three {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-with-logo, .website-with-logo {
+    display: flex;
+    align-items: center;
+}
+
+.website-logo, .contact-logo {
+    padding-right: 15px;
+}
+
