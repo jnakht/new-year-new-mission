@@ -44,7 +44,6 @@ body {
     padding-top: 130px;
 }
 
-
 /* main */
 
 .discount-description {
@@ -92,6 +91,7 @@ body {
 
 
 /* midnight party */
+
 .midnight-party {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
@@ -212,7 +212,6 @@ body {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
-
 }
 
 .p1-h4 {
@@ -278,7 +277,6 @@ body {
     padding-top: 21px;
 }
 
-
 /* holiday sale */
 
 .holiday-sale {
@@ -294,7 +292,6 @@ body {
 
 .holiday-sale-description b {
     color: #070211;
-
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
@@ -322,12 +319,9 @@ body {
 
 .picture-part-1 {
     background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
-
     height: 630px;
     width: 1302px;
     background-position: bottom center, top right;
-
-
     background-repeat: no-repeat, no-repeat;
     background-size: 1299px 200px, auto;
     margin-right: 100px;
@@ -336,9 +330,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
-
 }
 
 .fifty-percent-logo {
@@ -346,14 +337,11 @@ body {
     height: 50%;
     right: 280px;
     top: 73px;
-
 }
 
 .flower-picture {
     position: absolute;
 }
-
-
 
 .the-best-gifts-description {
     margin-left: 100px;
@@ -375,7 +363,6 @@ body {
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 22px;
-
 }
 
 .the-best-gifts-description p {
@@ -401,8 +388,6 @@ body {
     gap: 18px;
     margin-top: 48px;
     margin-bottom: 18px;
-
-
 }
 
 .products-p2 {
@@ -416,7 +401,6 @@ body {
 
 .subscribe-part {
     background-color: #FFE5E5;
-    /* */
     margin-left: 100px;
     margin-right: 100px;
     height: 650px;
@@ -426,7 +410,6 @@ body {
 .subscribe-description {
     margin-top: 200px;
     text-align: center;
-
 }
 
 .subscribe-description img {
@@ -466,7 +449,6 @@ body {
     background: #FFF;
     padding-left: 35px;
     margin-left: 270px;
-
 }
 
 .subscribe-form input[type="submit"] {
@@ -484,7 +466,6 @@ body {
 
 input {
     border: none;
-
 }
 
 input:focus {
@@ -504,26 +485,28 @@ input:focus {
 
 .address {
     color: #FFF;
-
     font-size: 24px;
     font-weight: 500;
     width: 400px;
 }
 
-.contact-info b, .contact-info a {
+.contact-info b,
+.contact-info a {
     color: #FFF;
-
     font-size: 24px;
     font-weight: 500;
 }
-.contact-info a, .footer-part-three a  {
+
+.contact-info a,
+.footer-part-three a {
     text-decoration: none;
 }
 
-.footer-part-three b, .footer-part-three a {
+.footer-part-three b,
+.footer-part-three a {
     color: #FFF;
-font-size: 24px;
-font-weight: 500;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .footer-part-one {
@@ -539,11 +522,12 @@ font-weight: 500;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
-    
 }
+
 .footer-part-two-contents {
     margin-left: 465px;
 }
+
 .footer-part-two img {
     margin-right: 24px;
 }
@@ -555,12 +539,35 @@ font-weight: 500;
     justify-content: space-between;
 }
 
-.contact-with-logo, .website-with-logo {
+.contact-with-logo,
+.website-with-logo {
     display: flex;
     align-items: center;
 }
 
-.website-logo, .contact-logo {
+.website-logo,
+.contact-logo {
     padding-right: 15px;
 }
 
+/* fonts */
+
+.banner,
+#midnight-party-greeting,
+#merri-font,
+#ho-sa-merri,
+#id-fo-merri,
+#font-de-merri {
+    font-family: 'Merriweather', serif;
+}
+
+.new-year-discount,
+.midnight-party,
+.event,
+.future-offer,
+.holiday-sale,
+.the-best-gifts-description,
+.subscribe-part,
+footer {
+    font-family: 'Inter', serif;
+}
